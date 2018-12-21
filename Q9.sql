@@ -1,0 +1,1 @@
+SELECT ic.category_name, SUM(i.item_price) total_price FROM item i INNER JOIN item_category ic ON i.category_id = ic.category_id GROUP BY i.category_id ORDER BY total_price DESC;

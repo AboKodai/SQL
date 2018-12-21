@@ -1,0 +1,1 @@
+SELECT i.item_id, i.item_name,i.item_price,ic.category_name FROM item i INNER JOIN item_category ic ON i.category_id = ic.category_id;

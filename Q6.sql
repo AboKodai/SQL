@@ -1,0 +1,1 @@
+SELECT item_name, item_price From item WHERE item_price >= 1000;
